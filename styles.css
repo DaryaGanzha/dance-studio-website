@@ -1,0 +1,60 @@
+body {
+    background: #FAF4D9;
+    color: #B72884;
+}
+
+q {
+    font-size: 18px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+sub {
+    margin: 20px;
+    display: block;
+}
+
+nav a {
+    border: 1px solid #B72884;
+    display: inline;
+    background-color: rgba(250, 222, 70, 0.5);
+    /*box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);*/
+    padding: 5px 5px 5px 5px;
+    color: #B72884;
+    line-height: 14px;
+    font-family: Verdana, serif;
+    font-weight: normal;
+    font-stretch: semi-expanded;
+    font-size: 15px;
+}
+
+.contacts {
+    font-family: Verdana, serif;
+    font-weight: normal;
+    font-stretch: semi-expanded;
+    background: rgba(250, 222, 70, 0.5); /* Цвет фона под заголовком */
+    color: #ac1476; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+    font-size: 15px;
+    border: 1px solid #B72884;
+}
+
+.mainText {
+    font-family: Verdana, serif;
+    font-weight: normal;
+    font-stretch: semi-expanded;
+    background: rgba(250, 222, 70, 0.5); /* Цвет фона под заголовком */
+    color: #B72884; /* Цвет текста */
+    padding: 2px; /* Поля вокруг текста */
+    font-size: 15px;
+    border: 1px solid #B72884;
+}
+
+a {
+    text-decoration: none;
+    color: #B72884 !important;
+}
+
