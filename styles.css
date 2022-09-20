@@ -3,7 +3,12 @@ body {
     color: #312236;
 }
 
+h1 {
+    font-family: Algerian, sans-serif;
+}
+
 q {
+    font-family: "Arial Rounded MT Bold", serif;
     font-size: 18px;
 }
 
@@ -19,8 +24,8 @@ sub {
 
 .header {
     display: inline;
-    font-family: Verdana, serif;
-    font-size: 15px;
+    font-family: "Arial Rounded MT Bold", serif;
+    font-size: 17px;
     color: #412E47;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px 5px 5px 5px;
@@ -32,8 +37,9 @@ sub {
 }
 
 .mainText {
-    font-family: Verdana, serif;
-    font-size: 15px;
+    display: inline-block;
+    font-family: "Arial Rounded MT Bold", serif;
+    font-size: 18px;
     color: #412E47; /* Цвет текста */
     /*font-weight: normal;*/
     /*font-stretch: semi-expanded;*/
@@ -46,14 +52,14 @@ sub {
 }
 
 .contacts {
-    font-family: Verdana, serif;
+    font-family: "Arial Rounded MT Bold", serif;
     /*font-weight: normal;*/
     /*font-stretch: semi-expanded;*/
     background: rgba(255, 255, 255, 0.5); /* Цвет фона под заголовком */
     color: #412E47; /* Цвет текста */
     padding: 5px; /* Поля вокруг текста */
     border-radius: 12px;
-    font-size: 15px;
+    font-size: 18px;
     border: 1px solid #412E47;
     box-shadow: 7px 7px #412E47;
     line-height: 25px;
