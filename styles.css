@@ -1,6 +1,6 @@
 body {
-    background: #FAF4D9;
-    color: #B72884;
+    background: #E49FFA;
+    color: #312236;
 }
 
 q {
@@ -8,8 +8,8 @@ q {
 }
 
 img {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 60px;
 }
 
 sub {
@@ -17,44 +17,50 @@ sub {
     display: block;
 }
 
-nav a {
-    border: 1px solid #B72884;
+.header {
     display: inline;
-    background-color: rgba(250, 222, 70, 0.5);
-    /*box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);*/
+    font-family: Verdana, serif;
+    font-size: 15px;
+    color: #412E47;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 5px 5px 5px 5px;
-    color: #B72884;
-    line-height: 14px;
-    font-family: Verdana, serif;
-    font-weight: normal;
-    font-stretch: semi-expanded;
-    font-size: 15px;
-}
-
-.contacts {
-    font-family: Verdana, serif;
-    font-weight: normal;
-    font-stretch: semi-expanded;
-    background: rgba(250, 222, 70, 0.5); /* Цвет фона под заголовком */
-    color: #ac1476; /* Цвет текста */
-    padding: 5px; /* Поля вокруг текста */
-    font-size: 15px;
-    border: 1px solid #B72884;
+    border: 1px solid #412E47;
+    border-radius: 12px;
+    box-shadow: 7px 7px #412E47;
+    /*font-weight: normal;*/
+    /*font-stretch: semi-expanded;*/
 }
 
 .mainText {
     font-family: Verdana, serif;
-    font-weight: normal;
-    font-stretch: semi-expanded;
-    background: rgba(250, 222, 70, 0.5); /* Цвет фона под заголовком */
-    color: #B72884; /* Цвет текста */
-    padding: 2px; /* Поля вокруг текста */
     font-size: 15px;
-    border: 1px solid #B72884;
+    color: #412E47; /* Цвет текста */
+    /*font-weight: normal;*/
+    /*font-stretch: semi-expanded;*/
+    border: 1px solid #412E47;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.5); /* Цвет фона под заголовком */
+    padding: 5px 5px 5px 5px; /* Поля вокруг текста */
+    box-shadow: 7px 7px #412E47;
+    line-height: 25px;
+}
+
+.contacts {
+    font-family: Verdana, serif;
+    /*font-weight: normal;*/
+    /*font-stretch: semi-expanded;*/
+    background: rgba(255, 255, 255, 0.5); /* Цвет фона под заголовком */
+    color: #412E47; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 12px;
+    font-size: 15px;
+    border: 1px solid #412E47;
+    box-shadow: 7px 7px #412E47;
+    line-height: 25px;
 }
 
 a {
     text-decoration: none;
-    color: #B72884 !important;
+    color: #412E47 !important;
 }
 
