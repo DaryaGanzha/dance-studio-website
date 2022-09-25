@@ -1,10 +1,32 @@
 body {
-    background: #E49FFA;
-    color: #312236;
+    background: #FFFFFF;
+    color: #000000;
 }
 
+/*#E49FFA*/
+/*#312236*/
+/*#412E47*/
+
 h1 {
+    display: block;
     font-family: Algerian, sans-serif;
+    color: #61050D;
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-pictures {
+    justify-content: flex-start;
+    height: 500px;
+    width: 200px;
+}
+
+.section-name {
+    font-family: "Arial Rounded MT Bold", serif;
+    font-size: 20px;
+    margin-left: 24%;
+    margin-right: 24%;
 }
 
 q {
@@ -17,56 +39,114 @@ img {
     width: 60px;
 }
 
+header {
+    background: black;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.for-header
+{
+    height: 110px;
+}
+
+.teacher-pic {
+    height: 220px;
+    width: 180px;
+    float: left;
+    margin: 7px 10px 7px 7px;
+}
+
 sub {
     margin: 20px;
     display: block;
 }
 
+/*header {*/
+/*    position: absolute;*/
+    /*z-index: 3;*/
+    /*background: #E49FFA;*/
+/*}*/
+
 .header {
-    display: inline;
+    display: inline-block;
     font-family: "Arial Rounded MT Bold", serif;
     font-size: 17px;
-    color: #412E47;
-    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    background-color: rgba(255, 255, 255, 1);
     padding: 5px 5px 5px 5px;
-    border: 1px solid #412E47;
+    border: 1px solid #61050D;
     border-radius: 12px;
-    box-shadow: 7px 7px #412E47;
+    box-shadow: 7px 7px #61050D;
+    margin-right: 25px;
     /*font-weight: normal;*/
     /*font-stretch: semi-expanded;*/
 }
 
-.mainText {
+.all-head {
+    display: block;
+    text-align: center;
+}
+
+.main-Text {
+    width: 50%;
     display: inline-block;
     font-family: "Arial Rounded MT Bold", serif;
     font-size: 18px;
-    color: #412E47; /* Цвет текста */
+    color: #000000;
+    border: 1px solid #61050D;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px 5px 5px 5px;
+    box-shadow: 7px 7px #61050D;
+    margin-top: 15px;
+    margin-left: 24%;
+    margin-right: 24%;
     /*font-weight: normal;*/
     /*font-stretch: semi-expanded;*/
-    border: 1px solid #412E47;
-    border-radius: 12px;
-    background-color: rgba(255, 255, 255, 0.5); /* Цвет фона под заголовком */
-    padding: 5px 5px 5px 5px; /* Поля вокруг текста */
-    box-shadow: 7px 7px #412E47;
-    line-height: 25px;
 }
 
+/*.teacher{*/
+/*    width: 50%;*/
+/*    display: inline-block;*/
+/*    font-family: "Arial Rounded MT Bold", serif;*/
+/*    font-size: 18px;*/
+/*    color: #412E47;*/
+/*    border: 1px solid #412E47;*/
+/*    border-radius: 12px;*/
+/*    background-color: rgba(255, 255, 255, 0.5);*/
+/*    padding: 5px 5px 5px 5px;*/
+/*    box-shadow: 7px 7px #61050D;*/
+/*    margin-top: 15px;*/
+/*    margin-left: 24%;*/
+/*    margin-right: 24%;*/
+/*}*/
+
 .contacts {
+    display: block;
     font-family: "Arial Rounded MT Bold", serif;
+    font-size: 18px;
+    color: #000000;
+    border: 1px solid #61050D;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    box-shadow: 7px 7px #61050D;
     /*font-weight: normal;*/
     /*font-stretch: semi-expanded;*/
-    background: rgba(255, 255, 255, 0.5); /* Цвет фона под заголовком */
-    color: #412E47; /* Цвет текста */
-    padding: 5px; /* Поля вокруг текста */
-    border-radius: 12px;
-    font-size: 18px;
-    border: 1px solid #412E47;
-    box-shadow: 7px 7px #412E47;
-    line-height: 25px;
 }
+
+/*nav {*/
+/*    width: 960px;*/
+/*    position: relative;*/
+/*    margin: 0 auto;*/
+/*}*/
 
 a {
     text-decoration: none;
-    color: #412E47 !important;
+    color: #61050D;
 }
 
