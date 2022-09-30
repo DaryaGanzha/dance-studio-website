@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="icon" type="image/png" sizes="32*32" href="images/head.png">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -16,10 +17,10 @@
         </h1>
         <div class="all-head">
             <nav>
-                <a href="/stub/" class="header">Студия</a>
-                <a href="/stub/" class="header">Цены</a>
-                <a href="/stub/" class="header">Галерея</a>
-                <a href="/stub/" class="header">Запись на уроки</a>
+                <a data-link="index" href="index.html" class="header button">Главная</a>
+                <a data-link="directions" href="directions.html" class="header button">Направления</a>
+                <a data-link="gallery" href="gallery.html" class="header button">Галерея</a>
+                <a data-link="lessons" href="lessons.html" class="header button">Запись на уроки</a>
             </nav>
         </div>
     </header>
@@ -89,6 +90,7 @@
                 </li>
             </ul>
         </div>
+        <p class="page-loading"></p>
     </section>
 </footer>
 </body>
