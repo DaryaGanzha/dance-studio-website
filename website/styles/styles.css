@@ -75,8 +75,6 @@ sub {
     border-radius: 12px;
     box-shadow: 7px 7px #CE1E80;
     margin-right: 25px;
-    /*font-weight: normal;*/
-    /*font-stretch: semi-expanded;*/
 }
 
 .all-head {
@@ -98,21 +96,13 @@ sub {
     margin-top: 15px;
 }
 
-/*.teacher{*/
-/*    width: 50%;*/
-/*    display: inline-block;*/
-/*    font-family: "Arial Rounded MT Bold", serif;*/
-/*    font-size: 18px;*/
-/*    color: #412E47;*/
-/*    border: 1px solid #412E47;*/
-/*    border-radius: 12px;*/
-/*    background-color: rgba(255, 255, 255, 0.5);*/
-/*    padding: 5px 5px 5px 5px;*/
-/*    box-shadow: 7px 7px #61050D;*/
-/*    margin-top: 15px;*/
-/*    margin-left: 24%;*/
-/*    margin-right: 24%;*/
-/*}*/
+.coloring *    {
+    cursor: default;
+}
+
+.colored_row    {
+    background-color: #ddd;
+}
 
 .contacts {
     display: block;
@@ -126,6 +116,10 @@ sub {
     box-shadow: 7px 7px #CE1E80;
 }
 
+.workout-list {
+
+}
+
 a {
     text-decoration: none;
     color: #CE1E80;
@@ -135,11 +129,6 @@ a:hover {
     color:#CE1E80;
     text-decoration: underline;
 }
-
-/*a:active {*/
-/*    color:#CE1E80;*/
-/*    text-decoration: underline;*/
-/*}*/
 
 @media (max-width: 760px) {
     .side-column {
@@ -163,3 +152,7 @@ a:hover {
 /*    border-radius: 20px;*/
 /*    border: 4px solid red;*/
 /*}*/
+
+.table {
+    color: #FFFFFF;
+}
