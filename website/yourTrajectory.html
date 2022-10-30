@@ -40,29 +40,31 @@
                     <div class="main-Text">
                         <h3>Укажи в какие дни ты хотел бы заниматься:</h3>
                         <label>
-                            <select name="day" id="select1">
-                                <option value="Понедельник" selected>Понедельник</option>
-                                <option value="Вторник">Вторник</option>
-                                <option value="Среда">Среда</option>
-                                <option value="Четверг">Четверг</option>
-                                <option value="Пятница">Пятница</option>
-                                <option value="Суббота">Суббота</option>
-                            </select>
-                            <select name="time" id="select2">
-                                <option value="10:00">10:00</option>
-                                <option value="12:00">12:00</option>
-                                <option value="14:00">14:00</option>
-                                <option value="16:00">16:00</option>
-                                <option value="18:00">18:00</option>
-                                <option value="20:00">20:00</option>
-                            </select>
-                            <input maxlength="20" placeholder="Личное пожелание" name="text" type="text" id="input1"
-                                   value=""/>
+                            <div id="tdlApp">
+                                <select name="day" id="select1">
+                                    <option value="Понедельник" selected>Понедельник</option>
+                                    <option value="Вторник">Вторник</option>
+                                    <option value="Среда">Среда</option>
+                                    <option value="Четверг">Четверг</option>
+                                    <option value="Пятница">Пятница</option>
+                                    <option value="Суббота">Суббота</option>
+                                </select>
+                                <select name="time" id="select2">
+                                    <option value="10:00">10:00</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="20:00">20:00</option>
+                                </select>
+                                <input maxlength="20" placeholder="Личное пожелание" name="text" type="text" id="input1"
+                                       value=""/>
+                            </div>
                         </label>
                     </div>
                     <button onclick="getValue()" type="submit">Сохранить вариант</button>
-                    <div>
-                        <table id='table'>
+                    <div id="tdlDiv">
+                        <table id='table' class="main-Text">
                         </table>
                     </div>
                 </form>
