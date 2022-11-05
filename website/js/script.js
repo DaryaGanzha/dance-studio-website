@@ -35,5 +35,9 @@ function activePage() {
     if (document.location.pathname.includes("yourTrajectory.html")) {
         [...navigationLinks].find(link => link.dataset.link === 'yourTrajectory').classList.add('button-active')
     }
+
+    if (document.location.pathname.includes("reviews.html")) {
+        [...navigationLinks].find(link => link.dataset.link === 'reviews').classList.add('button-active')
+    }
 }
 
