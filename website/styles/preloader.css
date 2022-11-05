@@ -12,3 +12,112 @@
     margin-top: 15px;
 }
 
+.preloader {
+    /*фиксированное позиционирование*/
+    position: fixed;
+    /* координаты положения */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* фоновый цвет элемента */
+    background: black;
+    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+    z-index: 1001;
+}
+
+.preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: white;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+}
+
+.preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes preloader-bounce {
+
+    0%,
+    100% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
+
+/*.container {*/
+/*    max-width: 550px;*/
+/*    margin: auto;*/
+/*    padding: 0 1rem;*/
+/*}*/
+/*textarea {*/
+/*    width: 100%;*/
+/*    height: 8rem;*/
+/*}*/
+/*button {*/
+/*    margin: 2rem 0;*/
+/*    width: 100%;*/
+/*    padding: 8px 0;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!* creating css loader *!*/
+
+/*#loading {*/
+/*    width: 2rem;*/
+/*    height: 2rem;*/
+/*    border: 5px solid #f3f3f3;*/
+/*    border-top: 6px solid #9c41f2;*/
+/*    border-radius: 100%;*/
+/*    margin: auto;*/
+/*    visibility: hidden;*/
+/*    animation: spin 1s infinite linear;*/
+/*}*/
+/*#loading.display {*/
+/*    visibility: visible;*/
+/*}*/
+/*@keyframes spin {*/
+/*    from {*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/

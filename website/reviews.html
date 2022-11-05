@@ -11,6 +11,19 @@
 </head>
 
 <body>
+<div class="preloader">
+    <div class="preloader__row">
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+    </div>
+</div>
+<!--<div class="container">-->
+<!--&lt;!&ndash;    <textarea id="inputPart" placeholder="Enter dummy data..."></textarea>&ndash;&gt;-->
+<!--&lt;!&ndash;    <button id="submitInput">Submit</button>&ndash;&gt;-->
+
+<!--    <div id="loading"></div>-->
+<!--&lt;!&ndash;    <h1 id="showOutput"></h1>&ndash;&gt;-->
+<!--</div>-->
 <main>
     <header>
         <h1>
@@ -28,18 +41,42 @@
         </div>
     </header>
     <div class="for-header"></div>
-    <h1>Отзывы</h1>
-    <div class="posts">
-        <div class="wrapper">
-            <div class="posts__list"></div>
-        </div>
-    </div>
-    <script src="js/networking.js"></script>
-<!--    <ul id="reviews" class="main-Text"></ul>-->
-    <!--CSS Spinner-->
-    <div class="spinner-wrapper">
-        <div class="spinner"></div>
-    </div>
+    <table style="width:100%">
+        <tbody>
+        <tr>
+            <td style="width:25%; vertical-align:top" class="side-column">
+                <!--                    <img src="images/photo1.jpg" alt="Photo" class="side-pictures">-->
+            </td>
+            <td style="width:50%">
+<!--                <div class="preloader">-->
+<!--                    <div class="preloader__row">-->
+<!--                        <div class="preloader__item"></div>-->
+<!--                        <div class="preloader__item"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <form>
+                    <h1>Отзывы</h1>
+                    <p class="main-Text" id='#error'></p>
+                    <div class="posts">
+                        <div class="wrapper">
+                            <div class="posts__list"></div>
+                        </div>
+                    </div>
+                    <script src="js/networking.js"></script>
+                    <!--    <ul id="reviews" class="main-Text"></ul>-->
+                    <!--CSS Spinner-->
+                    <div class="spinner-wrapper">
+                        <div class="spinner"></div>
+                    </div>
+                </form>
+            </td>
+            <td style="width: 25%; vertical-align: top" class="side-column">
+                <!--  <img src="images/photo2.jpg" alt="Photo" class="side-pictures">-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
 </main>
 <footer>
     <section>
