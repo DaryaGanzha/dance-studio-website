@@ -21,11 +21,6 @@ const fillPostsList = (posts) => {
     }
 }
 
-window.addEventListener("load", async () => {
-    await getPostRequest();
-    fillPostsList(state.posts);
-})
-
 function getRandomNum() {
     let num = Math.floor(Math.random() * 3) + 3;
     console.log(num);
@@ -53,10 +48,17 @@ function getPostRequest() {
         .then((posts) =>  {
             state.posts = state.posts.concat(posts);
             document.querySelector(".preloader").style.display = "none";
+            document.getElementById("#error").style.display = "none";
         })
         .catch(function (error) {
+            document.querySelector(".preloader").style.display = "none";
             console.log(error);
             let err = document.getElementById('#error');
             err.innerHTML = "Что-то пошло не так :(";
         })
 }
+
+window.addEventListener("load", async () => {
+    await getPostRequest();
+    fillPostsList(state.posts);
+})
